@@ -24,6 +24,7 @@ Extra contact benaderd
 Besluit verder met Kinect
 
 **Datacamp**: Python Data Science Toolbox (Part 1), Pandas foundation
+
 **Coursera**: Machine Learning - Linear Regression with One Variable
 
 ## Week 4
@@ -35,6 +36,7 @@ Variable, function, first order functions, gradient, intercept
 Gradient descent, derivative, learning rate, update rules, batch gradient descent
 
 **Datacamp**: Python Data Science Toolbox (Part 2), Introduction to data visualization with Python
+
 **Coursera**: Machine Learning - Linear Regression with Multiple Variables
 
 ## Week 5
@@ -44,6 +46,7 @@ Deze week heb ik onder andere een poster gemaakt om studenten te informeren over
 Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over polynomial regression en de normal equation.
 
 **Datacamp**: Cleaning Data
+
 **Coursera**: Machine Learning - Logistic Regression & Regularization
 
 ## Week 6
@@ -52,6 +55,7 @@ Data opnemen in Atrium: voordoen/begeleiden oefeningen [afbeelding]
 Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
 
 **Datacamp**: Statistical Thinking in Python (part 1), Supervised Learning with Skicit-learn
+
 **Coursera**: Machine Learning - Advice for Applying Machine Learning
 
 ## Week 7
