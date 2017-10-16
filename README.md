@@ -37,6 +37,7 @@ Variable, function, first order functions, gradient, intercept
 #### Wiskunde sessie 4 
 Gradient descent, derivative, learning rate, update rules, batch gradient descent
 
+
 **Datacamp**: Python Data Science Toolbox (Part 2), Introduction to data visualization with Python
 
 **Coursera**: Machine Learning - Linear Regression with Multiple Variables
