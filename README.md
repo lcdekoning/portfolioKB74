@@ -29,9 +29,9 @@ Variable, function, first order functions, gradient, intercept
 Gradient descent, derivative, learning rate, update rules, batch gradient descent
 
 ## Week 5
-#### Wiskunde sessie 10 
-Polynomial regression, normal equation
-Poster voor opnames [poster toevoegen]
+Deze week heb ik onder andere een poster gemaakt om studenten te informeren over ons project. Op deze poster staat wat onze opdracht is, waarom we daarvoor data nodig hebben en hoe we deze data willen verzamelen. [poster toevoegen]
+
+Ook heb ik deze week weer een wiskunde sessie gegeven. ** Wiskunde sessie 10 ** Over polynomial regression, normal equation
 
 ## Week 6
 Poster voor opnames afgerond
@@ -39,7 +39,9 @@ Data opnemen in Atrium: voordoen/begeleiden oefeningen [afbeelding]
 Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
 
 ## Week 7
-Algoritmes programmeren (rotatie lichaam en hoek arm/lichaam) [code toevoegen?]
+In week 7 ben ik voornamelijk bezig geweest met het uitwerken van algoritmes. Allereerst een algoritme om lichamen te roteren wanneer deze niet recht voor onze Kinect camera stonden. Vervolgens heb ik een begin gemaakt aan een algoritme om de hoek tussen de arm en de ruggengraat te bereken. Aan de hand van deze hoek kan de fysiotherapeut iets zeggen over de klachten/oorzaken van pijn bij patiënten.  
+Deze algoritmes heb ik geprogrammeerd in Python.
+[code toevoegen?]
 
 ## Week 8
 
