@@ -3,29 +3,31 @@ Portfolio voor de KB74 minor
 
 
 ## Week 1
-Kick-off 
-Groep Pepper
-Scrum Lego Workshop
+In de eerste week van de minor ben ik met mijn groep vooral bezig geweest met verkennen van de opdracht. De eerste literatuur is gezocht en de eerste vragen zijn gesteld. Ook hebben we een naam voor de groep bedacht: groep Pepper.
+
+Een van de eerste opdrachten als groep was de Scrum Lego Workshop van Tony Andrioli. Een leuke manier om kennis te maken met groepsgenoten en met Scrum. Al snel hadden we binnen de groep een taakverdeling en de communicatie ging elke sprint beter. 
 
 **Datacamp**: Intro to Python for Data Science
 
+
 ## Week 2
-Zoeken medische informatie schouder
-Informatie gezocht over Pepper
+In week 2 zijn we gericht gaan zoeken naar literatuur, ik heb mij vooral beziggehouden met zoeken naar informatie over schoudergewrichten, -protheses en oefeningen. Dit heb ik samen met Maricruz gedaan. Samen hebben we toen een document opgesteld met belangrijke informatie, medische termen en een algemeen beeld van de schouder.
+
 #### Presentatie
-Externe presentatie gegeven + template powerpoint gemaakt [powerpoint toevoegen]
+Aan het eind van week 2 heb ik in mijn eentje de tweede presentatie gedaan. Hiervoor heb ik een PowerPoint presentatie gemaakt, die tijdens volgende presentaties ook als template wordt gebruikt. [powerpoint toevoegen]
 
 **Datacamp**: Intermediate Python for Data Science, Introduction to visualization with Python, Importing data in Python path 1
 
+
 ## Week 3
-Bezoek arts in LUMC
-Uitwerken interview [notulen bijvoegen]
+Op dinsdag 12 september zijn we met een aantal groepsleden voor een eerste gesprek met de opdrachtgever naar het LUMC geweest. Hier hebben we gesproken met fysiotherapeut en leidinggevende van de afdeling, dr. Eric Vermeulen. Tijdens het gesprek heb ik genotuleerd, de notulen hiervan zijn hier te vinden [notulen bijvoegen]. Tijdens dit gesprek is de opdracht veel duidelijker geworden: we gaan niet kijken naar schouderprotheses, maar naar de beweeglijkheid van het gewricht bij allerlei patiënten. Patiënten met schouderklachten hebben vaak bepaalde bewegingen die pijn doen, dit worden 'painful arcs' genoemd. 
 Extra contact benaderd
 Besluit verder met Kinect
 
 **Datacamp**: Python Data Science Toolbox (Part 1), Pandas foundation
 
 **Coursera**: Machine Learning - Linear Regression with One Variable
+
 
 ## Week 4
 Literatuur zoeken/lezen/samenvatten [samenvattingen toevoegen]
