@@ -9,31 +9,37 @@ Scrum Lego Workshop
 Eerste presentatie
 
 ## Week 2
-Zoeken medische informatie schouder 
+Zoeken medische informatie schouder
+Informatie gezocht over Pepper
+#### Presentatie
 Externe presentatie gegeven + powerpoint gemaakt
 
 ## Week 3
 Bezoek arts in LUMC
 Uitwerken interview [notulen bijvoegen]
 Extra contact benaderd
-Informatie gezocht over Pepper
+Besluit verder met Kinect
 
 ## Week 4
 Literatuur zoeken/lezen/samenvatten [samenvattingen toevoegen]
 
-Wiskunde sessie 1: variable, function, first order functions, gradient, intercept
-Wiskunde sessie 4: gradient descent, derivative, learning rate, update rules, batch gradient descent
+#### Wiskunde sessie 1 
+Variable, function, first order functions, gradient, intercept
+#### Wiskunde sessie 4 
+Gradient descent, derivative, learning rate, update rules, batch gradient descent
 
 ## Week 5
-Wiskunde sessie 10: polynomial regression, normal equation
-Poster voor opnames
+#### Wiskunde sessie 10 
+Polynomial regression, normal equation
+Poster voor opnames [poster toevoegen]
 
 ## Week 6
-Poster voor opnames
+Poster voor opnames afgerond
 Data opnemen in Atrium: voordoen/begeleiden oefeningen [afbeelding]
+Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
 
 ## Week 7
-Algoritmes programmeren (rotatie lichaam en hoek arm/lichaam)
+Algoritmes programmeren (rotatie lichaam en hoek arm/lichaam) [code toevoegen?]
 
 ## Week 8
 
