@@ -14,7 +14,7 @@ Een van de eerste opdrachten als groep was de Scrum Lego Workshop van Tony Andri
 In week 2 zijn we gericht gaan zoeken naar literatuur, ik heb mij vooral beziggehouden met zoeken naar informatie over schoudergewrichten, -protheses en oefeningen. Dit heb ik samen met Maricruz gedaan. Samen hebben we toen een document opgesteld met belangrijke informatie, medische termen en een algemeen beeld van de schouder.
 
 #### Presentatie
-Aan het eind van week 2 heb ik in mijn eentje de tweede presentatie gedaan. Hiervoor heb ik een PowerPoint presentatie gemaakt, die tijdens volgende presentaties ook als template wordt gebruikt. [powerpoint toevoegen]
+Aan het eind van week 2 heb ik in mijn eentje de tweede presentatie gedaan. Hiervoor heb ik een PowerPoint [presentatie](presentations/presentatie 1 extern.pdf) gemaakt, die tijdens volgende presentaties ook als template wordt gebruikt.
 
 **Datacamp**: Intermediate Python for Data Science, Introduction to visualization with Python, Importing data in Python path 1
 
