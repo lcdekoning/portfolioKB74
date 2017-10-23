@@ -20,7 +20,7 @@ Aan het eind van week 2 heb ik in mijn eentje de tweede presentatie gedaan. Hier
 
 
 ## Week 3
-Op dinsdag 12 september zijn we met een aantal groepsleden voor een eerste gesprek met de opdrachtgever naar het LUMC geweest. Hier hebben we gesproken met fysiotherapeut en leidinggevende van de afdeling, dr. Eric Vermeulen. Tijdens het gesprek heb ik genotuleerd, de notulen hiervan zijn hier te vinden [notulen bijvoegen]. Tijdens dit gesprek is de opdracht veel duidelijker geworden: we gaan niet kijken naar schouderprotheses, maar naar de beweeglijkheid van het gewricht bij allerlei patiënten. Patiënten met schouderklachten hebben vaak bepaalde bewegingen die pijn doen, dit worden 'painful arcs' genoemd. 
+Op dinsdag 12 september zijn we met een aantal groepsleden voor een eerste gesprek met de opdrachtgever naar het LUMC geweest. Hier hebben we gesproken met fysiotherapeut en leidinggevende van de afdeling, dr. Eric Vermeulen. Tijdens het gesprek heb ik genotuleerd, de notulen hiervan zijn [hier](documents/Notulen_gesprek_DrEricVermeulen_LUMC.docx) te vinden. Tijdens dit gesprek is de opdracht veel duidelijker geworden: we gaan niet kijken naar schouderprotheses, maar naar de beweeglijkheid van het gewricht bij allerlei patiënten. Patiënten met schouderklachten hebben vaak bepaalde bewegingen die pijn doen, dit worden 'painful arcs' genoemd. 
 Extra contact benaderd
 Besluit verder met Kinect
 
@@ -30,7 +30,7 @@ Besluit verder met Kinect
 
 
 ## Week 4
-Literatuur zoeken/lezen/samenvatten [samenvattingen toevoegen]
+Literatuur zoeken/lezen/samenvatten [samenvattingen toevoegen].
 
 #### Wiskunde sessie 1 
 Variable, function, first order functions, gradient, intercept
@@ -44,6 +44,8 @@ Gradient descent, derivative, learning rate, update rules, batch gradient descen
 
 ## Week 5
 Deze week heb ik onder andere een poster gemaakt om studenten te informeren over ons project. Op deze poster staat wat onze opdracht is, waarom we daarvoor data nodig hebben en hoe we deze data willen verzamelen. [poster toevoegen]
+
+![Poster opnames Atrium](images/Data_opnemen_Atrium.png "Poster opnames Atrium")
  
 #### Wiskunde sessie 10 
 Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over polynomial regression en de normal equation.
