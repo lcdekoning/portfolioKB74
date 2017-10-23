@@ -45,8 +45,8 @@ Gradient descent, derivative, learning rate, update rules, batch gradient descen
 ## Week 5
 Deze week heb ik onder andere een poster gemaakt om studenten te informeren over ons project. Op deze poster staat wat onze opdracht is, waarom we daarvoor data nodig hebben en hoe we deze data willen verzamelen. [poster toevoegen]
 
-![Poster opnames Atrium](images/Data_opnemen_Atrium.png "Poster opnames Atrium")
- 
+![Poster](images/Poster.png "Poster")
+
 #### Wiskunde sessie 10 
 Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over polynomial regression en de normal equation.
 
@@ -56,7 +56,7 @@ Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over pol
 
 ## Week 6
 Poster voor opnames afgerond
-Data opnemen in Atrium: voordoen/begeleiden oefeningen [afbeelding]
+Data opnemen in Atrium: voordoen/begeleiden oefeningen ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
 Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
 
 **Datacamp**: Statistical Thinking in Python (part 1), Supervised Learning with Skicit-learn
