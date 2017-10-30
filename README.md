@@ -78,6 +78,8 @@ Door het normaliseren van de tijd, kunnen personen onderling vergeleken worden. 
 
 Van een aantal personen hebben we nog geen grafiek, omdat er sprake is van meer dan één skelet. Dit skelet moet er eerst nog uitgefilterd worden door het cleanen van de data.
 
+Ook ben ik bezig geweest met de **Spark tutorials en de assignments**.
+
 ## Week 9
 
 ## Week 10
