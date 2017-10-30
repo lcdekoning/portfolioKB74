@@ -1,9 +1,11 @@
 # portfolioKB74
-Portfolio voor de KB74 minor
+Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs* bij patiënten?
+
+* Een painful arc is het gebied in de beweging waarbinnen de patiënt pijn of ongemak ervaart. 
 
 
 ## Week 1
-In de eerste week van de minor ben ik met mijn groep vooral bezig geweest met verkennen van de opdracht. De eerste literatuur is gezocht en de eerste vragen zijn gesteld. Ook hebben we een naam voor de groep bedacht: groep Pepper.
+In de eerste week van de minor ben ik met mijn groep vooral bezig geweest met verkennen van de opdracht. De eerste literatuur is gezocht en de eerste vragen zijn gesteld. Ook hebben we een naam voor de groep bedacht: groep Pepper. 
 
 Een van de eerste opdrachten als groep was de Scrum Lego Workshop van Tony Andrioli. Een leuke manier om kennis te maken met groepsgenoten en met Scrum. Al snel hadden we binnen de groep een taakverdeling en de communicatie ging elke sprint beter. 
 
@@ -12,6 +14,10 @@ Een van de eerste opdrachten als groep was de Scrum Lego Workshop van Tony Andri
 
 ## Week 2
 In week 2 zijn we gericht gaan zoeken naar literatuur, ik heb mij vooral beziggehouden met zoeken naar informatie over schoudergewrichten, -protheses en oefeningen. Dit heb ik samen met Maricruz gedaan. Samen hebben we toen een document opgesteld met belangrijke informatie, medische termen en een algemeen beeld van de schouder.
+
+We hebben deze week ook al een aantal eerste tests gedaan met de RealSense camera. Aan de hand van de data die we hiermee verkregen hebben we de eerste dieptebeelden omgezet in afbeeldingen waar we iets aan kunnen zien. In de figuur hieronder is daar een voorbeeld van te zien.
+
+![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
 
 #### Presentatie
 Aan het eind van week 2 heb ik in mijn eentje de tweede presentatie gedaan. Hiervoor heb ik een PowerPoint [presentatie](presentations/Presentatie_1_extern.pdf) gemaakt, die tijdens volgende presentaties ook als template wordt gebruikt.
@@ -103,7 +109,3 @@ Ook ben ik bezig geweest met de **Spark tutorials en de assignments**.
 ## Week 19
 
 ## Week 20
-
-## Week 21
-
-## Week 22
