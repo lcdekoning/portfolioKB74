@@ -61,9 +61,10 @@ Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over pol
 **Coursera**: Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 
 ## Week 6
-Poster voor opnames afgerond
-Data opnemen in Atrium: voordoen/begeleiden oefeningen ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
-Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
+Deze week heb ik de poster voor de opnames afgerond, en hebben we de data opgenomen in het Atrium. Tijdens de opnamedag heb ik de oefeningen begeleid door ze voor te doen en de personen te informeren over wat ze gaan doen. De volgende foto geeft een indruk van de ochtend.
+ ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
+Eerste grafieken gemaakt met data, zie afbeelding hieronder.
+![Eerste grafieken](images/Grafieken_excel.png "Eerste grafieken in Excel")
 
 **Datacamp**: Statistical Thinking in Python (part 1), Supervised Learning with Skicit-learn ([zie screenshot](images/DataCamp1.png))
 
