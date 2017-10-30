@@ -71,8 +71,8 @@ Eerste grafieken gemaakt met data, zie afbeelding hieronder.
 **Coursera**: Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
 ## Week 7
-In week 7 ben ik voornamelijk bezig geweest met het uitwerken van algoritmes. Allereerst een algoritme om lichamen te roteren wanneer deze niet recht voor onze Kinect camera stonden. Vervolgens heb ik een begin gemaakt aan een algoritme om de hoek tussen de arm en de ruggengraat te bereken. Aan de hand van deze hoek kan de fysiotherapeut iets zeggen over de klachten/oorzaken van pijn bij patiënten.  
-[code toevoegen?]
+In week 7 ben ik voornamelijk bezig geweest met het uitwerken van [algoritmes](notebooks/Combined_to_plot.ipynb). Allereerst een algoritme om lichamen te roteren wanneer deze niet recht voor onze Kinect camera stonden. Vervolgens heb ik een begin gemaakt aan een algoritme om de hoek tussen de arm en de ruggengraat te bereken. Aan de hand van deze hoek kan de fysiotherapeut iets zeggen over de klachten/oorzaken van pijn bij patiënten.  
+
 
 ## Week 8
 In week 8 ben ik bezig geweest met het maken van grafieken met behulp van de eerder uitgewerkte algoritmes. Om de grafieken te maken heb ik nog een functie geschreven om de tijd te normaliseren. Aan het einde van week 8 konden we daardoor voor bijna alle proefpersonen een grafiek maken van oefening 1 (de oefening waarbij de armen naast het lichaam omhoog bewogen diende te worden). In de figuur hieronder staat een voorbeeld van een grafiek van één persoon. 
