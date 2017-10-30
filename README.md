@@ -1,7 +1,7 @@
 # portfolioKB74
-Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs* bij patiënten?
+Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
-* Een painful arc is het gebied in de beweging waarbinnen de patiënt pijn of ongemak ervaart. 
+Een painful arc is het gebied in de beweging waarbinnen de patiënt pijn of ongemak ervaart. 
 
 
 ## Week 1
