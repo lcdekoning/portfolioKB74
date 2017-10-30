@@ -65,10 +65,18 @@ Eerste grafieken gemaakt met test-data [afbeelding toevoegen]
 
 ## Week 7
 In week 7 ben ik voornamelijk bezig geweest met het uitwerken van algoritmes. Allereerst een algoritme om lichamen te roteren wanneer deze niet recht voor onze Kinect camera stonden. Vervolgens heb ik een begin gemaakt aan een algoritme om de hoek tussen de arm en de ruggengraat te bereken. Aan de hand van deze hoek kan de fysiotherapeut iets zeggen over de klachten/oorzaken van pijn bij patiënten.  
-Deze algoritmes heb ik geprogrammeerd in Python.
 [code toevoegen?]
 
 ## Week 8
+In week 8 ben ik bezig geweest met het maken van grafieken met behulp van de eerder uitgewerkte algoritmes. Om de grafieken te maken heb ik nog een functie geschreven om de tijd te normaliseren. Aan het einde van week 8 konden we daardoor voor bijna alle proefpersonen een grafiek maken van oefening 1 (de oefening waarbij de armen naast het lichaam omhoog bewogen diende te worden). In de figuur hieronder staat een voorbeeld van een grafiek van één persoon. 
+
+![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
+
+Door het normaliseren van de tijd, kunnen personen onderling vergeleken worden. In de figuur hieronder zijn vijf personen samengevoegd in één grafiek.
+
+![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
+
+Van een aantal personen hebben we nog geen grafiek, omdat er sprake is van meer dan één skelet. Dit skelet moet er eerst nog uitgefilterd worden door het cleanen van de data.
 
 ## Week 9
 
