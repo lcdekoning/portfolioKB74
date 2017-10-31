@@ -1,8 +1,6 @@
 # portfolioKB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
-Een painful arc is het gebied in de beweging waarbinnen de patiënt pijn of ongemak ervaart. 
-
 
 ## Week 1
 In de eerste week van de minor ben ik met mijn groep vooral bezig geweest met verkennen van de opdracht. De eerste literatuur is gezocht en de eerste vragen zijn gesteld. Ook hebben we een naam voor de groep bedacht: groep Pepper. 
@@ -36,7 +34,7 @@ Besluit verder met Kinect
 
 
 ## Week 4
-Literatuur zoeken/lezen/samenvatten /TODO [samenvattingen toevoegen].
+In week 4 ben ik vooral bezig geweest met literatuur zoeken en doornemen, van een aantal artikelen heb ik een samenvatting gemaakt.  [samenvattingen toevoegen] Ook heb ik deze week twee wiskunde sessies gegeven, over onderwerpen die voorkwamen in de Coursera course. 
 
 #### Wiskunde sessie 1 
 Variable, function, first order functions, gradient, intercept. Hiervoor heb ik gebruik gemaakt van een [presentatie](presentations/math_behind_ml_1.pdf) van BlackBoard.
@@ -61,9 +59,12 @@ Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over pol
 **Coursera**: Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 
 ## Week 6
-Deze week heb ik de poster voor de opnames afgerond, en hebben we de data opgenomen in het Atrium. Tijdens de opnamedag heb ik de oefeningen begeleid door ze voor te doen en de personen te informeren over wat ze gaan doen. De volgende foto geeft een indruk van de ochtend.
+Deze week heb ik de poster voor de opnames afgerond, en zijn we druk bezig geweest met de voorbereidingen voor het opnemen van de data in het Atrium. 
+
+Tijdens de opnamedag heb ik de oefeningen begeleid door ze voor te doen en de personen te informeren over wat ze gaan doen. De volgende foto geeft een indruk van de ochtend.
  ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
-Eerste grafieken gemaakt met data, zie afbeelding hieronder.
+
+N.a.v. de eerste opnamedata heb ik de volgende grafieken gemaakt. In de afbeelding is de eerste oefening van één persoon zichtbaar gemaakt door de coördinaten uit te zetten tegen de tijd, zodat de beweging in een bepaald vlak zichtbaar is.
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
 
 **Datacamp**: Statistical Thinking in Python (part 1), Supervised Learning with Skicit-learn ([zie screenshot](images/DataCamp1.png))
