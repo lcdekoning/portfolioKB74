@@ -1,10 +1,9 @@
 # portfolioKB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
-# Leeswijzer
-
 
 # Datacamp
+Op Datacamp heb ik de volgende courses gevolgd:
 - Intro to Python for Data Science 
 - Intermediate Python for Data Science
 - Introduction to visualization with Python 
@@ -20,19 +19,30 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
 ([zie](images/DataCamp1.png) en [zie](images/DataCamp2.png))
 
 # Coursera
+Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Linear Regression with One Variable ([zie screenshot](images/Coursera1.png))
 - Machine Learning - Linear Regression with Multiple Variables ([zie screenshot](images/Coursera2.png))
 - Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
 # Taken/Resultaten
+De volgende taken/resultaten heb ik behaald:
+#### Eerste dieptebeelden
 ![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
-notulen van gesprek LUMC [notulen](documents/Notulen_gesprek_DrEricVermeulen_LUMC.docx)
-- samenvattingen artikelen
+#### Samenvattingen artikelen 
+samenvattingen artikelen
+#### Poster opnames Atrium
 ![Poster](images/Poster.png "Poster")
+#### Opnames maken Atrium
 ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
+#### Eerste grafieken Excel
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
+#### Eerste grafieken Python
+
+##### Normalisatie
+In de ruwe data staat de tijd van de opname geschreven als (bijvoorbeeld) ""
 ![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
+
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
 
 
