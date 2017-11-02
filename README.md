@@ -26,7 +26,7 @@ Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
 # Taken/Resultaten
-De volgende taken/resultaten heb ik behaald:
+De volgende taken/resultaten heb ik uitgevoerd:
 #### Eerste dieptebeelden
 ![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
 #### Samenvattingen artikelen 
@@ -40,7 +40,12 @@ samenvattingen artikelen
 #### Eerste grafieken Python
 
 ##### Normalisatie
-In de ruwe data staat de tijd van de opname geschreven als (bijvoorbeeld) ""
+Voor elke exercise neem ik de volgende stappen om de tijd te normaliseren:
+1. Eerste frame op 0 seconden zetten en vervolgens voor elk volgend frame het verschil met het vorige frame berekend en deze cumulatief opgeteld.
+2. Voor elk frame deel ik het aantal seconden door het aantal seconden van het laatste frame.
+In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
+
+
 ![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
 
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
