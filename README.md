@@ -52,7 +52,8 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 
 # Notebooks
-[algoritmes](notebooks/Combined_to_plot.ipynb)
+- [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
+- [functies voor "treintje"](notebooks/Seperated_functions.md)
 
 # Opdrachten
 
