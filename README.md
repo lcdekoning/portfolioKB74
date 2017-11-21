@@ -25,20 +25,31 @@ Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
-# Taken/Resultaten
+# Resultaten
 De volgende taken/resultaten heb ik uitgevoerd:
+
+
 #### Eerste dieptebeelden
 ![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
+
+
 #### Samenvattingen artikelen 
 samenvattingen artikelen
+
+
 #### Poster opnames Atrium
 ![Poster](images/Poster.png "Poster")
+
+
 #### Opnames maken Atrium
 ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
+
+
 #### Eerste grafieken Excel
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
-#### Eerste grafieken Python
 
+
+### Eerste grafieken Python
 ##### Normalisatie
 Voor elke exercise neem ik de volgende stappen om de tijd te normaliseren:
 1. Eerste frame op 0 seconden zetten en vervolgens voor elk volgend frame het verschil met het vorige frame berekend en deze cumulatief opgeteld.
@@ -57,6 +68,26 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 # Opdrachten
 
+#### Exploratory Data Analysis
+| Nr. | Naam |
+| --- | --- |
+| 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
+| 2 | [Variable Identification](notebooks/2VariableIdentification-Codebook.md) |
+| 3 | [Univariate Analysis](notebooks/3UnivariateAnalysis.md) |
+| 4 | [Bi-variate Analysis](notebooks/4Bi-variateAnalysis.md) |
+| 5, 6 | [Missing data and outliers](notebooks/5+6MissingDataOutliers.md) |
+| 7 | [Transformation](notebooks/7Transformation.md) |
+| 8 | [Variable creation](notebooks/8Variablecreation.md) |
+| 9 | [Evaluation](notebooks/9Evaluation.md) |
+
+
+#### Spark assignmenst
+| Nr. | Naam |
+| --- | --- |
+| 1 | [Assignment 1](notebooks/assignment1.md) |
+| 2 | [Assignment 2](notebooks/assignment2.md) |
+
+
 
 # Presentaties
 PowerPoint [presentatie](presentations/Presentatie_1_extern.pdf)
@@ -64,9 +95,10 @@ PowerPoint [presentatie](presentations/Presentatie_1_extern.pdf)
 
 # Extra's
 
-#### Wiskunde sessie 1 
-Variable, function, first order functions, gradient, intercept. Hiervoor heb ik gebruik gemaakt van een [presentatie](presentations/math_behind_ml_1.pdf) van BlackBoard.
-#### Wiskunde sessie 4 
-Gradient descent, derivative, learning rate, update rules, batch gradient descent. Hiervoor heb ik gebruik gemaakt van een [presentatie](presentations/math_behind_ml_4.pdf) van BlackBoard.
-#### Wiskunde sessie 10 
-Ook heb ik deze week weer een wiskunde sessie gegeven. Deze sessie ging over polynomial regression en de normal equation, hiervoor heb ik gebruik gemaakt van een [presentatie](presentations/math_behind_ml_10.pdf) van BlackBoard.
+### Wiskunde sessie's
+
+| Nr. | Onderwerpen | Presentatie
+| --- | --- | --- |
+| 1 | Variable, function, first order functions, gradient, intercept | [presentatie](presentations/math_behind_ml_1.pdf) |
+| 4 | Gradient descent, derivative, learning rate, update rules, batch gradient descent | [presentatie](presentations/math_behind_ml_4.pdf) |
+| 10 | Polynomial regression and the normal equation | [presentatie](presentations/math_behind_ml_10.pdf) |
