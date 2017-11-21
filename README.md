@@ -99,8 +99,8 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 
 # Presentaties
-| Nr. | Intern/Extern |
-| --- | --- |
+| Nr. | Intern/Extern | Presentatie |
+| --- | --- | --- |
 | 1 | Extern | [presentatie](presentations/Presentatie_1_extern.pdf) |
 
 
