@@ -16,7 +16,7 @@ Op Datacamp heb ik de volgende courses gevolgd:
 - Statistical Thinking in Python (part 1)
 - Supervised Learning with Skicit-learn
 
-([zie](images/DataCamp1.png) en [zie](images/DataCamp2.png))
+Screenshots: [zie](images/DataCamp1.png) en [zie](images/DataCamp2.png)
 
 # Coursera
 Op Coursera heb ik de volgende courses gevolgd:
@@ -28,16 +28,18 @@ Op Coursera heb ik de volgende courses gevolgd:
 # Resultaten
 De volgende taken/resultaten heb ik uitgevoerd:
 
-
+## Dieptebeelden
 #### Eerste dieptebeelden
+Eerste dieptebeelden gemaakt met de Intel Realsense camera omgezet in grijswaarden. Gezocht naar een range van afstanden waarbinnen de persoon staat, en deze omgezet in grijswaarden.
 ![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
 
-
+## Literatuur
 #### Samenvattingen artikelen 
 samenvattingen artikelen
 
-
+## Opnames Atrium
 #### Poster opnames Atrium
+Poster ter informatie voor studenten.
 ![Poster](images/Poster.png "Poster")
 
 
@@ -45,21 +47,28 @@ samenvattingen artikelen
 ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
 
 
+## Grafieken
 #### Eerste grafieken Excel
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
 
 
 ### Eerste grafieken Python
-##### Normalisatie
+![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
+
+![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
+
+# Wiskunde in code
+## Normalisatie
 Voor elke exercise neem ik de volgende stappen om de tijd te normaliseren:
 1. Eerste frame op 0 seconden zetten en vervolgens voor elk volgend frame het verschil met het vorige frame berekend en deze cumulatief opgeteld.
 2. Voor elk frame deel ik het aantal seconden door het aantal seconden van het laatste frame.
 In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 
-![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
+## Rotatie lichaam
 
-![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
+
+## Hoeken berekenen 
 
 
 # Notebooks
@@ -81,7 +90,7 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 | 9 | [Evaluation](notebooks/9Evaluation.md) |
 
 
-#### Spark assignmenst
+#### Spark assignments
 | Nr. | Naam |
 | --- | --- |
 | 1 | [Assignment 1](notebooks/assignment1.md) |
@@ -90,7 +99,9 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 
 # Presentaties
-PowerPoint [presentatie](presentations/Presentatie_1_extern.pdf)
+| Nr. | Intern/Extern |
+| --- | --- |
+| 1 | Extern | [presentatie](presentations/Presentatie_1_extern.pdf) |
 
 
 # Extra's
