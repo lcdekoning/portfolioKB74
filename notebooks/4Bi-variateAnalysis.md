@@ -21,7 +21,7 @@ plt.show()
 
 
 
-![png](output_1_1.png)
+![png](4output_1_1.png)
 
 
 
@@ -36,7 +36,7 @@ plt.show()
 
 
 
-![png](output_2_1.png)
+![png](4output_2_1.png)
 
 
 
@@ -79,5 +79,5 @@ plt.show()
 
 
 
-![png](output_4_1.png)
+![png](4output_4_1.png)
 
