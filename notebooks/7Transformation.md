@@ -25,11 +25,11 @@ plt.show()
 
 
 
-![png](output_2_1.png)
+![png](7output_2_1.png)
 
 
 
-![png](output_2_2.png)
+![png](7output_2_2.png)
 
 
 # Boxcox transformation
@@ -65,11 +65,11 @@ plt.show()
 
 
 
-![png](output_6_1.png)
+![png](7output_6_1.png)
 
 
 
-![png](output_6_2.png)
+![png](7output_6_2.png)
 
 
 # Log transformation
@@ -94,9 +94,9 @@ plt.show()
 
 
 
-![png](output_9_1.png)
+![png](7output_9_1.png)
 
 
 
-![png](output_9_2.png)
+![png](7output_9_2.png)
 
