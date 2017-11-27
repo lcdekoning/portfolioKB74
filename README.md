@@ -35,7 +35,7 @@ Eerste dieptebeelden gemaakt met de Intel Realsense camera omgezet in grijswaard
 
 ## Literatuur
 #### Samenvattingen artikelen 
-samenvattingen artikelen
+[Samenvattingen.](documents/Samenvattingen.md)
 
 ## Opnames Atrium
 #### Poster opnames Atrium
