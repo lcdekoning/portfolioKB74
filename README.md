@@ -25,17 +25,16 @@ Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
-# Resultaten
-De volgende taken/resultaten heb ik uitgevoerd:
+# Mijn resultaten
 
 ## Dieptebeelden
 #### Eerste dieptebeelden
 Eerste dieptebeelden gemaakt met de Intel Realsense camera omgezet in grijswaarden. Gezocht naar een range van afstanden waarbinnen de persoon staat, en deze omgezet in grijswaarden.
 ![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
 
-## Literatuur
-#### Samenvattingen artikelen 
-[Samenvattingen.](documents/Samenvattingen.md)
+## Literatuur 
+De [samenvattingen](documents/Samenvattingen.md) die ik gemaakt heb.
+
 
 ## Opnames Atrium
 #### Poster opnames Atrium
@@ -56,6 +55,7 @@ Poster ter informatie voor studenten.
 ![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
 
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
+
 
 # Wiskunde in code
 ## Normalisatie
