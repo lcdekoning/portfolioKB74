@@ -73,6 +73,7 @@ Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is he
 
 
 ## Hoeken berekenen 
+Wanneer het lichaam recht staat, kan de gewenste hoek berekend worden. 
 
 
 # Notebooks
