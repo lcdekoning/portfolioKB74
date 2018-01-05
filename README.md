@@ -76,6 +76,9 @@ Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is he
 Wanneer het lichaam recht staat, kan de gewenste hoek berekend worden. 
 
 
+# Clustering
+
+
 # Notebooks
 - [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
 - [functies voor "treintje"](notebooks/Seperated_functions.md)
