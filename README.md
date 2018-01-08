@@ -73,11 +73,15 @@ Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is he
 
 
 ## Hoeken berekenen 
-Wanneer het lichaam recht staat, kan de gewenste hoek berekend worden. 
+Wanneer het lichaam recht staat, kan de gewenste hoek tussen arm en lichaam berekend worden. TODO Hoeken berekenen 
+
+
+# Zwakke plekke Kinect algoritme
+We maken gebruik van een bestaand algoritme om een skelet te creëren. Dit skelet bestaat uit 25 joints, die elk (onder andere) een x-, y- en z-coördinaat bevatten. Met deze coördinaten worden vervolgens alle hoeken berekend voor de data analyse. Het is van belang dat de coördinaten juist zijn, anders kloppen de berekende hoeken niet. In de meeste gevallen lijken de coördinaten te kloppen, op een aantal momenten is dit echter niet zo.  TODO Afbeelding
 
 
 # Clustering
-
+TODO Clustering
 
 # Notebooks
 - [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
