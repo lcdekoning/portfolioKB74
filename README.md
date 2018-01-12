@@ -126,6 +126,7 @@ Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris bezi
 | Nr. | Intern/Extern | Presentatie |
 | --- | --- | --- |
 | 1 | Extern | [presentatie](presentations/Presentatie_1_extern.pdf) |
+| x | LUMC | TODO |
 
 
 # Extra's
