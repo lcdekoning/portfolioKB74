@@ -1,3 +1,6 @@
+TODO controleren links
+
+
 # Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
@@ -60,9 +63,13 @@ Na het werkend krijgen van de RealSense camera die gebruikt wordt in de Pepper r
 Tegen de tijd dat we gingen werken met de Jupyterhub, en dus Python gingen gebruiken, hadden we al besloten verder te gaan met de Kinect data. De grafieken hieronder zijn dus gemaakt met data van de Kinect.
 
 In de eerste grafiek zijn de hoeken van de arm weergegeven voor één persoon, terwijl een zijwaartse beweging werd gemaakt (exercise 1).
+
+
 ![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
 
 In de tweede grafiek zijn de hoeken van de arm weergegeven voor vijf personen, bij het maken van dezelfde beweging als voorgaande grafiek.
+
+
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
 
 
