@@ -52,6 +52,7 @@ Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
 ## Exploratory Data Analysis
+
 | Nr. | Naam |
 | --- | --- |
 | 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
@@ -64,6 +65,7 @@ Op Coursera heb ik de volgende courses gevolgd:
 | 9 | [Evaluation](notebooks/9Evaluation.md) |
 
 ## Spark Assignments
+
 | Nr. | Naam |
 | --- | --- |
 | 1 | [Assignment 1](notebooks/assignment1.md) |
