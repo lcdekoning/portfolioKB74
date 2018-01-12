@@ -7,62 +7,28 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
 
 # In mijn portfolio
 
-[Opdrachten](#-opdrachten)
-[Mijn resultaten](#-Mijn-resultaten)
-
-
 | # | ## | ### |
 | --- | --- | --- |
-| [Opdrachten](#opdrachten) | [Datacamp](## Datacamp) | |
-| | [Coursera](## Coursera) | |
-| | [Exploratory Data Analysis](## Exploratory Data Analysis) | |
-| | [Spark Assignments](## Spark Assignments) | |
+| [Opdrachten](#opdrachten) | [Datacamp](##datacamp) | |
+| | [Coursera](##coursera) | |
+| | [Exploratory Data Analysis](##exploratory-data-analysis) | |
+| | [Spark Assignments](##spark-assignments) | |
+| [Literatuur](#literatuur) | | |
+| [Opnames Atrium](#opnames-atrium) | | |
+| [Visualisatie](#visualisatie) | [Dieptebeelden](##dieptebeelden) | |
+| | [Grafieken](##grafieken) | |
+| | | [Excel](###excel) |
+| | | [Python](###python) |
+| [Wiskunde](#wiskunde) | | |
+| [Zwakke plekken](#zwakke-plekken) | | |
+| [Clustering](#clustering) | | |
+| [Presentaties](#presentaties) | | |
+| [Extra](#extra) | | |
 
 
 # Opdrachten
 
 ## Datacamp
-
-## Coursera
-
-## Exploratory Data Analysis
-
-## Spark Assignments
-
-
-# Literatuur
-
-
-# Opnames Atrium
-
-
-# Visualisatie
-
-## Dieptebeelden
-
-## Grafieken
-
-### Excel
-
-### Python
-
-# Wiskunde
-
-# Zwakke plekken
-
-# Clustering
-
-# Presentaties
-
-# Extra
-
-
-
-
-
-# Online courses
-
-### Datacamp
 Op Datacamp heb ik de volgende courses gevolgd:
 - Intro to Python for Data Science 
 - Intermediate Python for Data Science
@@ -78,45 +44,58 @@ Op Datacamp heb ik de volgende courses gevolgd:
 
 Screenshots: [zie](images/DataCamp1.png) en [zie](images/DataCamp2.png)
 
-### Coursera
+## Coursera
 Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Linear Regression with One Variable ([zie screenshot](images/Coursera1.png))
 - Machine Learning - Linear Regression with Multiple Variables ([zie screenshot](images/Coursera2.png))
 - Machine Learning - Logistic Regression & Regularization ([zie screenshot](images/Coursera3.png))
 - Machine Learning - Advice for Applying Machine Learning ([zie screenshot](images/Coursera6.png))
 
+## Exploratory Data Analysis
+| Nr. | Naam |
+| --- | --- |
+| 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
+| 2 | [Variable Identification](notebooks/2VariableIdentification-Codebook.md) |
+| 3 | [Univariate Analysis](notebooks/3UnivariateAnalysis.md) |
+| 4 | [Bi-variate Analysis](notebooks/4Bi-variateAnalysis.md) |
+| 5, 6 | [Missing data and outliers](notebooks/5+6MissingDataOutliers.md) |
+| 7 | [Transformation](notebooks/7Transformation.md) |
+| 8 | [Variable creation](notebooks/8Variablecreation.md) |
+| 9 | [Evaluation](notebooks/9Evaluation.md) |
+
+## Spark Assignments
+| Nr. | Naam |
+| --- | --- |
+| 1 | [Assignment 1](notebooks/assignment1.md) |
+| 2 | [Assignment 2](notebooks/assignment2.md) |
 
 
-# Mijn resultaten
-
-## Dieptebeelden
-#### Eerste dieptebeelden
-Eerste dieptebeelden gemaakt met de Intel Realsense camera omgezet in grijswaarden. Gezocht naar een range van afstanden waarbinnen de persoon staat, en deze omgezet in grijswaarden.
-![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
-
-
-## Literatuur 
+# Literatuur
 De [samenvattingen](documents/Samenvattingen.md) die ik gemaakt heb.
 
 
-## Opnames Atrium
-#### Poster opnames Atrium
+# Opnames Atrium
 Poster ter informatie voor studenten.
 
 ![Poster](images/Poster.png "Poster")
 
-
-#### Opnames maken Atrium
+Impressie van de opnames.
 ![Opnames maken](images/Data_opnemen_Atrium.png "Opnames maken")
 
 
+# Visualisatie
+
+## Dieptebeelden
+Eerste dieptebeelden gemaakt met de Intel Realsense camera omgezet in grijswaarden. Gezocht naar een range van afstanden waarbinnen de persoon staat, en deze omgezet in grijswaarden.
+![Eerste dieptebeelden](images/Aquarel.png "Eerste dieptebeelden")
+
 ## Grafieken
-#### Eerste grafieken Excel
+
+### Excel
 Na het werkend krijgen van de RealSense camera die gebruikt wordt in de Pepper robot, hebben we de eerste data verkregen. Deze data heb ik geïmporteerd in Excel. Door tabellen te genereren heb ik geprobeerd de beweging te visualiseren. 
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
 
-
-#### Eerste grafieken Python
+### Python
 Tegen de tijd dat we gingen werken met de Jupyterhub, en dus Python gingen gebruiken, hadden we al besloten verder te gaan met de Kinect data. De grafieken hieronder zijn dus gemaakt met data van de Kinect.
 
 In de eerste grafiek zijn de hoeken van de arm weergegeven voor één persoon, terwijl een zijwaartse beweging werd gemaakt (exercise 1).
@@ -129,10 +108,7 @@ In de tweede grafiek zijn de hoeken van de arm weergegeven voor vijf personen, b
 
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
 
-
-
-
-# Wiskunde in code
+# Wiskunde
 ### Normalisatie
 Voor elke exercise neem ik de volgende stappen om de tijd te normaliseren:
 1. Eerste frame op 0 seconden zetten en vervolgens voor elk volgend frame het verschil met het vorige frame berekend en deze cumulatief opgeteld.
@@ -241,67 +217,25 @@ def calculate_arc(frame, eNum, side):
     return alpha        
 ```
 
-
-
-
-# Zwakke plekken Kinect algoritme
+# Zwakke plekken
 We maken gebruik van een bestaand algoritme om een skelet te creëren. Dit skelet bestaat uit 25 joints, die elk (onder andere) een x-, y- en z-coördinaat bevatten. Met deze coördinaten worden vervolgens alle hoeken berekend voor de data analyse. Het is van belang dat de coördinaten juist zijn, anders kloppen de berekende hoeken niet. In de meeste gevallen lijken de coördinaten te kloppen, op een aantal momenten is dit echter niet zo.  
 
-### Ruggengraat
+## Ruggengraat
 De hoek tussen de arm en het lichaam bij de voorwaartse beweging wordt berekend aan de hand van de arm en de ruggengraat. De ruggengraat bestaat uit een aantal punten, waaronder SpineShoulder en Spinemid. De coördinaten van deze punten wordt gebruikt om de richting van de ruggengraat te bepalen (de ene vector voor de hoekberekening). In bijna alle gevallen zijn de coördinaten goed genoeg om een realistische beweging te maken. Echter gaat het fout bij personen met een dikke buik. De ruggengraat wordt dan door het algoritme schuin naar voren geplaatst, zoals is weergegeven in de afbeelding hieronder. Dit heb ik samen met Boris ontdekt en getest door zelf een dikke buik te creëren, en dit te vergelijken met dezelfde persoon zónder dikke buik.
 
 ![Zwakke plek ruggengraat](images/SpineMistake.jpg "Zwakke plek ruggengraat")
 
-
-### Plaatsing van joints
+## Plaatsing van joints
 Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de joints in bepaalde situaties. Bijvoorbeeld wanneer de persoon zijn armen recht omhoog langs zijn hoofd heeft. Op dit moment is het algoritme niet altijd in staat goed onderscheid te maken tussen het hoofd, de nek en de schouders. Ook de heupen zijn te hoog geplaatst. Een voorbeeld hiervan is zichtbaar in de volgende afbeelding: TODO afbeelding.
-
-
 
 
 # Clustering
 Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. TODO Clustering
 
-### Hoeken hoogte en diepte - exercise 1
+## Hoeken hoogte en diepte - exercise 1
 TODO tekst toevoegen
 ![Clustering 1](images/Clustering_1.png "Clustering 1")
 ![Clustering 2](images/Clustering_2.png "Clustering 2")
-
-
-
-
-# Notebooks
-- [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
-- [functies voor "treintje"](notebooks/Seperated_functions.md)
-- [functies voor "treintje" v2](notebooks/Seperated_functions_v3.md) 
-
-
-
-
-# Opdrachten
-
-#### Exploratory Data Analysis
-
-| Nr. | Naam |
-| --- | --- |
-| 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
-| 2 | [Variable Identification](notebooks/2VariableIdentification-Codebook.md) |
-| 3 | [Univariate Analysis](notebooks/3UnivariateAnalysis.md) |
-| 4 | [Bi-variate Analysis](notebooks/4Bi-variateAnalysis.md) |
-| 5, 6 | [Missing data and outliers](notebooks/5+6MissingDataOutliers.md) |
-| 7 | [Transformation](notebooks/7Transformation.md) |
-| 8 | [Variable creation](notebooks/8Variablecreation.md) |
-| 9 | [Evaluation](notebooks/9Evaluation.md) |
-
-
-#### Spark assignments
-
-| Nr. | Naam |
-| --- | --- |
-| 1 | [Assignment 1](notebooks/assignment1.md) |
-| 2 | [Assignment 2](notebooks/assignment2.md) |
-
-
 
 
 # Presentaties
@@ -312,14 +246,19 @@ TODO tekst toevoegen
 | x | LUMC | TODO |
 
 
+# Extra
 
-
-# Extra's
-
-### Wiskunde sessie's
+## Wiskunde sessie's
 
 | Nr. | Onderwerpen | Presentatie
 | --- | --- | --- |
 | 1 | Variable, function, first order functions, gradient, intercept | [presentatie](presentations/math_behind_ml_1.pdf) |
 | 4 | Gradient descent, derivative, learning rate, update rules, batch gradient descent | [presentatie](presentations/math_behind_ml_4.pdf) |
 | 10 | Polynomial regression and the normal equation | [presentatie](presentations/math_behind_ml_10.pdf) |
+
+
+## Notebooks
+- [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
+- [functies voor "treintje"](notebooks/Seperated_functions.md)
+- [functies voor "treintje" v2](notebooks/Seperated_functions_v3.md) 
+
