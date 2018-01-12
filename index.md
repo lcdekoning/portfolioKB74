@@ -4,6 +4,62 @@ TODO controleren links
 # Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
+
+# In mijn portfolio
+
+[Opdrachten](#-Opdrachten)
+[Mijn resultaten](#-Mijn-resultaten)
+
+
+| # | ## | ### |
+| --- | --- | --- |
+| [Opdrachten](#Opdrachten) | [Datacamp](## Datacamp) | |
+| | [Coursera](## Coursera) | |
+| | [Exploratory Data Analysis](## Exploratory Data Analysis) | |
+| | [Spark Assignments](## Spark Assignments) | |
+
+
+# Opdrachten
+
+## Datacamp
+
+## Coursera
+
+## Exploratory Data Analysis
+
+## Spark Assignments
+
+
+# Literatuur
+
+
+# Opnames Atrium
+
+
+# Visualisatie
+
+## Dieptebeelden
+
+## Grafieken
+
+### Excel
+
+### Python
+
+# Wiskunde
+
+# Zwakke plekken
+
+# Clustering
+
+# Presentaties
+
+# Extra
+
+
+
+
+
 # Online courses
 
 ### Datacamp
