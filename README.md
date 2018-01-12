@@ -1,4 +1,4 @@
-# portfolioKB74
+# Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
 
@@ -55,12 +55,17 @@ Poster ter informatie voor studenten.
 
 ## Grafieken
 #### Eerste grafieken Excel
+Na het werkend krijgen van de RealSense camera die gebruikt wordt in de Pepper robot, hebben we de eerste data verkregen. Deze data heb ik geïmporteerd in Excel. Door tabellen te genereren heb ik geprobeerd de beweging te visualiseren. 
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
 
 
 ### Eerste grafieken Python
+Tegen de tijd dat we gingen werken met de Jupyterhub, en dus Python gingen gebruiken, hadden we al besloten verder te gaan met de Kinect data. De grafieken hieronder zijn dus gemaakt met data van de Kinect.
+
+In de eerste grafiek zijn de hoeken van de arm weergegeven voor één persoon, terwijl een zijwaartse beweging werd gemaakt (exercise 1).
 ![Grafiek één persoon](images/grafiek_1_persoon.png "Grafiek één persoon")
 
+In de tweede grafiek zijn de hoeken van de arm weergegeven voor vijf personen, bij het maken van dezelfde beweging als voorgaande grafiek.
 ![Grafiek vijf personen](images/grafiek_5_personen.png "Grafiek vijf personen")
 
 
@@ -99,8 +104,8 @@ def calculate_arc(frame, eNum, side):
         elif eNum in twee:
             coordinate_one = 'y'
             coordinate_two = 'zRotated'
-        
-        # neemt eerste waarde, hoeft niet de goede waarde te zijn!!
+       
+        # create vector
         spineShoulder = np.matrix([[frame.loc[frame['jointName'] == 'SpineShoulder', coordinate_one].values[0]], 
                                [frame.loc[frame['jointName'] == 'SpineShoulder', coordinate_two].values[0]]])
         spineMid = np.matrix([[frame.loc[frame['jointName'] == 'SpineMid', coordinate_one].values[0]], 
@@ -116,12 +121,14 @@ def calculate_arc(frame, eNum, side):
             jointName_shoulder = "ShoulderRight"
             jointName_elbow = "ElbowRight"
         
+        # create vector
         shoulder = np.matrix([[frame.loc[frame['jointName'] == jointName_shoulder, coordinate_one].values[0]], 
                         [frame.loc[frame['jointName'] == jointName_shoulder, coordinate_two].values[0]]])
         elbow = np.matrix([[frame.loc[frame['jointName'] == jointName_elbow, coordinate_one].values[0]], 
                         [frame.loc[frame['jointName'] == jointName_elbow, coordinate_two].values[0]]])
         elbow_new = elbow - shoulder
         
+        # calculation
         sum_vectors = np.dot(np.transpose(spineMid_new), elbow_new)
         multiplication_lengths = np.linalg.norm(spineMid_new) * np.linalg.norm(elbow_new)
         
@@ -134,7 +141,8 @@ def calculate_arc(frame, eNum, side):
             # left side
             jointName_elbow = "ShoulderLeft"
             jointName_wrist = "WristLeft"
-            
+          
+        # create vector
         elbow = np.matrix([[frame.loc[frame['jointName'] == jointName_elbow, 'xRotated'].values[0]], 
                             [frame.loc[frame['jointName'] == jointName_elbow, 'zRotated'].values[0]]])
         wrist = np.matrix([[frame.loc[frame['jointName'] == jointName_wrist, 'xRotated'].values[0]], 
@@ -142,68 +150,29 @@ def calculate_arc(frame, eNum, side):
         
         wrist_new = wrist - elbow
         front_vector = np.matrix([[0],[-1]])
-
+        
+        # calculation
         sum_vectors = np.dot(np.transpose(front_vector), wrist_new)
         multiplication_lengths = np.linalg.norm(front_vector) * np.linalg.norm(wrist_new)
     
+    # calculation
     cos_alpha = sum_vectors / multiplication_lengths
     alpha = np.arccos(cos_alpha) * 180 / math.pi
     
+    # when a person can move his arm more than 180 degrees
     if eNum in een:
         if side == 'r':
             if elbow_new[0,0] < spineMid_new[0,0]:
                 alpha = 360 - alpha
-#                 print(alpha)
         else:
             if elbow_new[0,0] > spineMid_new[0,0]:
                 alpha = 360 - alpha
-#                 print(alpha)
     elif eNum in twee:
-#         # Waarmee vergelijken?????????????????????
-        if (elbow_new[0,0] > 0) and (elbow_new[1,0] > 0):
-#             print(frame.frameNum.unique())
-#             print('elbow_new: ', elbow_new)
-#             print('spineMid_new: ', spineMid_new)
-#             print(elbow_new[0,0], spineMid_new[0,0], elbow_new[1,0], spineMid_new[1,0], alpha, 360 - alpha) 
+        if (elbow_new[0,0] > 0) and (elbow_new[1,0] > 0): 
             alpha = 360 - alpha
                 
-    return alpha     
-
-def get_arcs(df, pNum, eNum, side):
-#     df = df.loc[df['eNum'] == eNum]
-    
-    frame_max = int(df['frameNum'].max())
-    frame_min = int(df['frameNum'].min())
-    # arcs = arcs.fillna(0) # with 0s rather than NaNs
-
-    if side == 'lr':
-        columns = ['pNum','eNum', 'frameNum', 'arc_right', 'arc_left']
-        arcs = pd.DataFrame(index=np.arange(0), columns=columns).fillna(0)
-
-        for i in range(frame_min, frame_max + 1): 
-            frame = df.loc[df['frameNum'] == i]
-
-            right_arc = calculate_arc(frame, eNum, 'r')
-            left_arc = calculate_arc(frame, eNum, 'l')
-
-            row = {'pNum':pNum, 'eNum':eNum, 'frameNum': i, 'arc_right': right_arc[0,0], 'arc_left': left_arc[0,0]}
-            arcs = arcs.append(row, ignore_index=True)            
-
-    else:
-        columns = ['pNum', 'eNum', 'frameNum', 'arc']
-        arcs = pd.DataFrame(index=np.arange(0), columns=columns)
-
-        for i in range(frame_min, frame_max + 1): 
-            frame = df.loc[df['frameNum'] == i]
-
-            arc = calculate_arc(frame, eNum, side)
-            
-            row = {'pNum':pNum, 'eNum':eNum, 'frameNum': i, 'arc': arc[0,0]}
-            arcs = arcs.append(row, ignore_index=True)            
-
-    return arcs    
+    return alpha        
 ```
-TODO Hoeken berekenen 
 
 
 
@@ -216,8 +185,9 @@ De hoek tussen de arm en het lichaam bij de voorwaartse beweging wordt berekend 
 
 ![Zwakke plek ruggengraat](images/SpineMistake.jpg "Zwakke plek ruggengraat")
 
+
 ## Plaatsing van joints
-TODO
+Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de joints in bepaalde situaties. Bijvoorbeeld wanneer de persoon zijn armen recht omhoog langs zijn hoofd heeft. Op dit moment is het algoritme niet altijd in staat goed onderscheid te maken tussen het hoofd, de nek en de schouders. Ook de heupen zijn te hoog geplaatst. Een voorbeeld hiervan is zichtbaar in de volgende afbeelding: TODO afbeelding.
 
 
 
