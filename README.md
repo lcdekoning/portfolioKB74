@@ -2,8 +2,6 @@
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
 
-
-
 # Datacamp
 Op Datacamp heb ik de volgende courses gevolgd:
 - Intro to Python for Data Science 
@@ -19,8 +17,6 @@ Op Datacamp heb ik de volgende courses gevolgd:
 - Supervised Learning with Skicit-learn
 
 Screenshots: [zie](images/DataCamp1.png) en [zie](images/DataCamp2.png)
-
-
 
 # Coursera
 Op Coursera heb ik de volgende courses gevolgd:
@@ -60,7 +56,7 @@ Na het werkend krijgen van de RealSense camera die gebruikt wordt in de Pepper r
 ![Eerste grafieken](images/Grafieken_excel.PNG "Eerste grafieken in Excel")
 
 
-### Eerste grafieken Python
+#### Eerste grafieken Python
 Tegen de tijd dat we gingen werken met de Jupyterhub, en dus Python gingen gebruiken, hadden we al besloten verder te gaan met de Kinect data. De grafieken hieronder zijn dus gemaakt met data van de Kinect.
 
 In de eerste grafiek zijn de hoeken van de arm weergegeven voor één persoon, terwijl een zijwaartse beweging werd gemaakt (exercise 1).
@@ -73,14 +69,14 @@ In de tweede grafiek zijn de hoeken van de arm weergegeven voor vijf personen, b
 
 
 # Wiskunde in code
-## Normalisatie
+### Normalisatie
 Voor elke exercise neem ik de volgende stappen om de tijd te normaliseren:
 1. Eerste frame op 0 seconden zetten en vervolgens voor elk volgend frame het verschil met het vorige frame berekend en deze cumulatief opgeteld.
 2. Voor elk frame deel ik het aantal seconden door het aantal seconden van het laatste frame.
 In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 
 
-## Rotatie lichaam
+### Rotatie lichaam
 Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is het van belang dat het lichaam 'recht voor de camera' staat. Omdat niet iedereen tijdens het maken van de opnames recht voor de camera stond, heb ik code geschreven die de lichamen recht zet. Dit doe ik aan de hand van de volgende stappen:
 1. Allereerst zet ik de x- en z-coördinaten van de rechterschouder in de oorsprong, waarna ik alle andere lichaamspunten (joints) met dezelfde translatie verplaats.
 2. Vervolgens bepaal ik de hoek alpha met behulp van de formule tan(alpha) = overstaande zijde/aanliggende zijde. Dit is weergegeven in de volgende afbeelding: 
@@ -90,7 +86,7 @@ Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is he
 3. Daarna roteer ik alle punten met de gegeven hoek, met behulp van de rotatiematrix.
 
 
-## Hoeken berekenen 
+### Hoeken berekenen 
 Wanneer het lichaam recht staat, kan de gewenste hoek tussen arm en lichaam berekend worden. Dit wordt berekend met behulp van de formule:
 
 ![Formule](images/Formule_vectoren_hoeken.png "Formule 1")
@@ -187,13 +183,13 @@ def calculate_arc(frame, eNum, side):
 # Zwakke plekken Kinect algoritme
 We maken gebruik van een bestaand algoritme om een skelet te creëren. Dit skelet bestaat uit 25 joints, die elk (onder andere) een x-, y- en z-coördinaat bevatten. Met deze coördinaten worden vervolgens alle hoeken berekend voor de data analyse. Het is van belang dat de coördinaten juist zijn, anders kloppen de berekende hoeken niet. In de meeste gevallen lijken de coördinaten te kloppen, op een aantal momenten is dit echter niet zo.  
 
-## Ruggengraat
+### Ruggengraat
 De hoek tussen de arm en het lichaam bij de voorwaartse beweging wordt berekend aan de hand van de arm en de ruggengraat. De ruggengraat bestaat uit een aantal punten, waaronder SpineShoulder en Spinemid. De coördinaten van deze punten wordt gebruikt om de richting van de ruggengraat te bepalen (de ene vector voor de hoekberekening). In bijna alle gevallen zijn de coördinaten goed genoeg om een realistische beweging te maken. Echter gaat het fout bij personen met een dikke buik. De ruggengraat wordt dan door het algoritme schuin naar voren geplaatst, zoals is weergegeven in de afbeelding hieronder. Dit heb ik samen met Boris ontdekt en getest door zelf een dikke buik te creëren, en dit te vergelijken met dezelfde persoon zónder dikke buik.
 
 ![Zwakke plek ruggengraat](images/SpineMistake.jpg "Zwakke plek ruggengraat")
 
 
-## Plaatsing van joints
+### Plaatsing van joints
 Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de joints in bepaalde situaties. Bijvoorbeeld wanneer de persoon zijn armen recht omhoog langs zijn hoofd heeft. Op dit moment is het algoritme niet altijd in staat goed onderscheid te maken tussen het hoofd, de nek en de schouders. Ook de heupen zijn te hoog geplaatst. Een voorbeeld hiervan is zichtbaar in de volgende afbeelding: TODO afbeelding.
 
 
@@ -202,7 +198,8 @@ Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de j
 # Clustering
 Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. TODO Clustering
 
-## Hoeken hoogte en diepte - exercise 1
+### Hoeken hoogte en diepte - exercise 1
+TODO tekst toevoegen
 ![Clustering 1](images/Clustering_1.png "Clustering 1")
 ![Clustering 2](images/Clustering_2.png "Clustering 2")
 
@@ -212,6 +209,7 @@ Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris bezi
 # Notebooks
 - [algoritmes, eerste versie](notebooks/Combined_to_plot.ipynb)
 - [functies voor "treintje"](notebooks/Seperated_functions.md)
+- [functies voor "treintje" v2](notebooks/Seperated_functions_v3.md) 
 
 
 
