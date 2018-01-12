@@ -4,10 +4,9 @@ TODO controleren links
 # Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
-# In mijn portfolio
-[Datacamp](#Datacamp)
+# Online courses
 
-# Datacamp
+### Datacamp
 Op Datacamp heb ik de volgende courses gevolgd:
 - Intro to Python for Data Science 
 - Intermediate Python for Data Science
@@ -23,7 +22,7 @@ Op Datacamp heb ik de volgende courses gevolgd:
 
 Screenshots: [zie](images/DataCamp1.png) en [zie](images/DataCamp2.png)
 
-# Coursera
+### Coursera
 Op Coursera heb ik de volgende courses gevolgd:
 - Machine Learning - Linear Regression with One Variable ([zie screenshot](images/Coursera1.png))
 - Machine Learning - Linear Regression with Multiple Variables ([zie screenshot](images/Coursera2.png))
