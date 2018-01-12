@@ -4,6 +4,8 @@ TODO controleren links
 # Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
+# In mijn portfolio
+[Datacamp][#Datacamp]
 
 # Datacamp
 Op Datacamp heb ik de volgende courses gevolgd:
@@ -224,6 +226,7 @@ TODO tekst toevoegen
 # Opdrachten
 
 #### Exploratory Data Analysis
+
 | Nr. | Naam |
 | --- | --- |
 | 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
@@ -237,6 +240,7 @@ TODO tekst toevoegen
 
 
 #### Spark assignments
+
 | Nr. | Naam |
 | --- | --- |
 | 1 | [Assignment 1](notebooks/assignment1.md) |
@@ -246,6 +250,7 @@ TODO tekst toevoegen
 
 
 # Presentaties
+
 | Nr. | Intern/Extern | Presentatie |
 | --- | --- | --- |
 | 1 | Extern | [presentatie](presentations/Presentatie_1_extern.pdf) |
