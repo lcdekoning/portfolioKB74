@@ -13,7 +13,7 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
 
 | # | ## | ### |
 | --- | --- | --- |
-| [opdrachten](#Opdrachten) | [Datacamp](## Datacamp) | |
+| [Opdrachten](#opdrachten) | [Datacamp](## Datacamp) | |
 | | [Coursera](## Coursera) | |
 | | [Exploratory Data Analysis](## Exploratory Data Analysis) | |
 | | [Spark Assignments](## Spark Assignments) | |
