@@ -7,23 +7,23 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
 
 # In mijn portfolio
 
-| # | ## | ### |
-| --- | --- | --- |
-| [Opdrachten](#opdrachten) | [Datacamp](##datacamp) | |
-| | [Coursera](##coursera) | |
-| | [Exploratory Data Analysis](##exploratory-data-analysis) | |
-| | [Spark Assignments](##spark-assignments) | |
-| [Literatuur](#literatuur) | | |
-| [Opnames Atrium](#opnames-atrium) | | |
-| [Visualisatie](#visualisatie) | [Dieptebeelden](##dieptebeelden) | |
-| | [Grafieken](##grafieken) | |
-| | | [Excel](###excel) |
-| | | [Python](###python) |
-| [Wiskunde](#wiskunde) | | |
-| [Zwakke plekken](#zwakke-plekken) | | |
-| [Clustering](#clustering) | | |
-| [Presentaties](#presentaties) | | |
-| [Extra](#extra) | | |
+- [Opdrachten](#opdrachten) 
+ - [Datacamp](##datacamp)
+ - [Coursera](##coursera)
+ - [Exploratory Data Analysis](##exploratory-data-analysis) 
+ - [Spark Assignments](##spark-assignments)
+- [Literatuur](#literatuur) 
+- [Opnames Atrium](#opnames-atrium) 
+- [Visualisatie](#visualisatie) 
+ - [Dieptebeelden](##dieptebeelden) 
+ -[Grafieken](##grafieken) 
+  - [Excel](###excel)
+  - [Python](###python)
+- [Wiskunde](#wiskunde)
+- [Zwakke plekken](#zwakke-plekken)
+- [Clustering](#clustering) 
+- [Presentaties](#presentaties) 
+- [Extra](#extra)
 
 
 # Opdrachten
@@ -235,9 +235,14 @@ Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de j
 Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. TODO Clustering
 
 ## Hoeken hoogte en diepte - exercise 1
-TODO tekst toevoegen
+Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. TODO nieuwe (juiste) grafieken toevoegen
+
 ![Clustering 1](images/Clustering_1.png "Clustering 1")
 ![Clustering 2](images/Clustering_2.png "Clustering 2")
+
+
+## Diepte bij bepaalde hoek - exercise 1
+Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaalde genormaliseerde tijd gekeken, maar naar een bepaalde hoek. Bij deze hoek hebben we voor elke persoon de diepte bepaald, en deze hebben als parameter toegevoegd aan de clustering. De resultaten hiervan zijn weergegeven in de volgende grafieken. TODO grafieken maken en toevoegen
 
 
 # Presentaties
