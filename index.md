@@ -16,7 +16,7 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
 - [Opnames Atrium](#opnames-atrium) 
 - [Visualisatie](#visualisatie) 
     - [Dieptebeelden](##dieptebeelden) 
-    -[Grafieken](##grafieken) 
+    - [Grafieken](##grafieken) 
         - [Excel](###excel)
         - [Python](###python)
 - [Wiskunde](#wiskunde)
