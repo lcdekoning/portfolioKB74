@@ -21,6 +21,8 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
         - [Python](###python)
 - [Wiskunde](#wiskunde)
 - [Zwakke plekken](#zwakke-plekken)
+    - [Ruggengraat](##ruggengraat)
+    - [Plaatsing van joints](##plaatsing-van-joints)
 - [Clustering](#clustering) 
 - [Presentaties](#presentaties) 
 - [Extra](#extra)
