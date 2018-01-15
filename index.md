@@ -123,10 +123,7 @@ In code ziet dit er als volgt uit: [toon code.](notebooks/Normalization.md)
 ### Rotatie lichaam
 Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is het van belang dat het lichaam 'recht voor de camera' staat. Omdat niet iedereen tijdens het maken van de opnames recht voor de camera stond, heb ik code geschreven die de lichamen recht zet. Dit doe ik aan de hand van de volgende stappen:
 1. Allereerst zet ik de x- en z-coördinaten van de rechterschouder in de oorsprong, waarna ik alle andere lichaamspunten (joints) met dezelfde translatie verplaats.
-2. Vervolgens bepaal ik de hoek alpha met behulp van de formule tan(alpha) = overstaande zijde/aanliggende zijde. Dit is weergegeven in de volgende afbeelding: 
-
-![Hoek berekenen](images/ArcBerekenen.png "Hoek berekenen")
-
+2. Vervolgens bepaal ik de hoek alpha met behulp van de formule tan(alpha) = overstaande zijde/aanliggende zijde. Dit is weergegeven in de volgende afbeelding: ![Hoek berekenen](images/ArcBerekenen.png "Hoek berekenen")
 3. Daarna roteer ik alle punten met de gegeven hoek, met behulp van de rotatiematrix.
 
 
