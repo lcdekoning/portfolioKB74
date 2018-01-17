@@ -25,7 +25,7 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
     - [Plaatsing van joints](##plaatsing-van-joints)
 - [Clustering](#clustering) 
 - [Presentaties](#presentaties) 
-- [Extra](#extra)
+- [Andere taken](#andere-taken)
 
 
 # Opdrachten
@@ -231,7 +231,7 @@ Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de j
 
 
 # Clustering
-Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. TODO Clustering
+Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. Eerst heb ik een klein voorbeeld bekeken en geprobeerd in Python, zie code TODO. Daarna heb ik samen met Boris is de data geprepareerd om het bruikbaar te maken voor het K-means algoritme, zie code TODO. Vervolgens hebben we de data van ons onderzoek geclusterd. De resultaten zijn als volgt:
 
 ## Hoeken hoogte en diepte - exercise 1
 Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. TODO nieuwe (juiste) grafieken toevoegen
@@ -252,9 +252,10 @@ Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaal
 | x | LUMC | TODO |
 
 
-# Extra
+# Andere taken
 
 ## Wiskunde sessie's
+De volgende wiskunde sessie's heb ik gegeven aan studenten van de minor:
 
 | Nr. | Onderwerpen | Presentatie
 | --- | --- | --- |
@@ -268,3 +269,9 @@ Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaal
 - [functies voor "treintje"](notebooks/Seperated_functions.md)
 - [functies voor "treintje" v2](notebooks/Seperated_functions_v3.md) 
 
+
+## Andere taken
+- mailcontact met opdrachtgever Eric Vermeulen van het LUMC
+    - nieuwe afspraken maken
+    - voortgang
+- contactpersoon lector Erwin de Vlugt bij afwezigheid Tony Andrioli
