@@ -237,10 +237,10 @@ Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris bezi
 Met de [code](notebooks/Cluster_real_data.md)
 Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. TODO nieuwe (juiste) grafieken toevoegen
 
-![Clustering 1](notebooks/output3_1.png "Clustering 1")
-![Clustering 2](notebooks/output3_2.png "Clustering 2")
-![Clustering 3](notebooks/output3_3.png "Clustering 3")
-![Clustering 4](notebooks/output3_4.png "Clustering 4")
+![Clustering 1](notebooks/output_3_1.png "Clustering 1")
+![Clustering 2](notebooks/output_3_2.png "Clustering 2")
+![Clustering 3](notebooks/output_3_3.png "Clustering 3")
+![Clustering 4](notebooks/output_3_4.png "Clustering 4")
 
 
 ## Diepte bij bepaalde hoek - exercise 1
