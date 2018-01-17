@@ -132,7 +132,8 @@ Wanneer het lichaam recht staat, kan de gewenste hoek tussen arm en lichaam bere
 
 ![Formule](images/Formule_vectoren_hoeken.png "Formule 1")
 
-De vectoren worden gecreëerd met de coördinaten van de benodigde joints. De code die ik hiervoor geschreven heb is: 
+De vectoren worden gecreëerd met de coördinaten van de benodigde joints. De code die ik hiervoor geschreven heb staat hieronder. Zichtbaar in de code is dat er drie verschillende hoeken berekend moeten worden, afhankelijk van de oefening die de persoon doet (oefening 1, 2 of 3).
+
 ``` python
 def calculate_arc(frame, eNum, side):  
     een = [1, 4, 5]
@@ -218,6 +219,7 @@ def calculate_arc(frame, eNum, side):
     return alpha        
 ```
 
+
 # Zwakke plekken
 We maken gebruik van een bestaand algoritme om een skelet te creëren. Dit skelet bestaat uit 25 joints, die elk (onder andere) een x-, y- en z-coördinaat bevatten. Met deze coördinaten worden vervolgens alle hoeken berekend voor de data analyse. Het is van belang dat de coördinaten juist zijn, anders kloppen de berekende hoeken niet. In de meeste gevallen lijken de coördinaten te kloppen, op een aantal momenten is dit echter niet zo.  
 
@@ -278,3 +280,6 @@ De volgende wiskunde sessie's heb ik gegeven aan studenten van de minor:
     - nieuwe afspraken maken
     - voortgang
 - contactpersoon lector Erwin de Vlugt bij afwezigheid Tony Andrioli
+- meegewerkt aan voorstel voor Medisch Ethische Commissie
+- meegewerkt aan protocol voor maken opnames
+- invoeren formulieren van opnames Atrium
