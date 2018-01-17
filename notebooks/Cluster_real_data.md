@@ -1,4 +1,6 @@
 
+# Cluster algoritme
+
 
 ```python
 %matplotlib inline
@@ -31,6 +33,8 @@ def find_clusters(X, n_clusters, rseed=2):
     
     return centers, labels
 ```
+
+# Inlezen geprepareerde data
 
 
 ```python
@@ -65,10 +69,10 @@ for k in range(3,4):
      [  0.3006645   14.75467763  -0.52759876  15.46209608]]
 
 
+# Grafieken plotten met uitkomsten
+
 
 ```python
-# TODO maximale hoek in hoogte en diepte (dus tijd niet meenemen)
-
 plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1])
 plt.scatter(df_2['arc_l_d'], df_2['arc_l_h'], c=kmeans.labels_, cmap='viridis')
 plt.xlabel('arc_l_d')
@@ -76,11 +80,7 @@ plt.xlim([-20, 10])
 plt.ylabel('arc_l_h')
 plt.ylim([-50, 130])
 plt.show()
-# plt.scatter(kmeans.cluster_centers_[:,1], kmeans.cluster_centers_[:,2])
-# plt.scatter(df_2['arc_l_h'], df_2['arc_r_d'])
-# plt.xlabel('arc_l_h')
-# plt.ylabel('arc_r_d')
-# plt.show()
+
 plt.scatter(kmeans.cluster_centers_[:,2], kmeans.cluster_centers_[:,3])
 plt.scatter(df_2['arc_r_d'], df_2['arc_r_h'], c=kmeans.labels_, cmap='viridis')
 plt.xlabel('arc_r_d')
@@ -88,11 +88,7 @@ plt.xlim([-20, 10])
 plt.ylabel('arc_r_h')
 plt.ylim([-50, 130])
 plt.show()
-# plt.scatter(kmeans.cluster_centers_[:,3], kmeans.cluster_centers_[:,0])
-# plt.scatter(df_2['arc_r_h'], df_2['arc_l_d'])
-# plt.xlabel('arc_r_h')
-# plt.ylabel('arc_l_d')
-# plt.show()
+
 plt.scatter(kmeans.cluster_centers_[:,1], kmeans.cluster_centers_[:,3])
 plt.scatter(df_2['arc_l_h'], df_2['arc_r_h'], c=kmeans.labels_, cmap='viridis')
 plt.xlabel('arc_l_h')
@@ -100,6 +96,7 @@ plt.xlim([-50, 130])
 plt.ylabel('arc_r_h')
 plt.ylim([-50, 130])
 plt.show()
+
 plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,2])
 plt.scatter(df_2['arc_l_d'], df_2['arc_r_d'], c=kmeans.labels_, cmap='viridis')
 plt.xlabel('arc_l_d')
@@ -107,7 +104,6 @@ plt.xlim([-20, 10])
 plt.ylabel('arc_r_d')
 plt.ylim([-20, 10])
 plt.show()
-
 ```
 
     /opt/jupyterhub/anaconda/lib/python3.6/site-packages/matplotlib/font_manager.py:1316: UserWarning: findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans
@@ -115,48 +111,17 @@ plt.show()
 
 
 
-![png](output_3_1.png)
+![png](output_6_1.png)
 
 
 
-![png](output_3_2.png)
+![png](output_6_2.png)
 
 
 
-![png](output_3_3.png)
+![png](output_6_3.png)
 
 
 
-![png](output_3_4.png)
-
-
-
-```python
-import math
-print(len(kmeans.labels_))
-
-counter = 1
-list_0 = []
-list_1 = []
-list_2 = []
-
-for number in kmeans.labels_:
-    if number == 0:
-        list_0 = list_0 + [counter]  #+ [math.ceil(counter/9)]
-    elif number == 1:
-        list_1 = list_1 + [counter]  #+ [math.ceil(counter/9)]
-    elif number == 2:
-        list_2 = list_2 + [counter]  #+ [math.ceil(counter/9)]
-    counter = counter + 1
-    
-print('list 0: ', list_0)
-print('list 1: ', list_1)
-print('list 2: ', list_2)
-
-```
-
-    24
-    list 0:  [4, 6, 13, 14, 18, 19, 21]
-    list 1:  [1, 7, 16, 17, 22]
-    list 2:  [2, 3, 5, 8, 9, 10, 11, 12, 15, 20, 23, 24]
+![png](output_6_4.png)
 
