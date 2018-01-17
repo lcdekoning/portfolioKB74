@@ -235,8 +235,7 @@ Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de j
 # Clustering
 Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. Eerst heb ik een klein voorbeeld bekeken en geprobeerd in Python, zie [code](notebooks/Kleine_oefening.md). Daarna heb ik samen met Boris is de data geprepareerd om het bruikbaar te maken voor het K-means algoritme, zie [code](notebooks/Input_data.md). Vervolgens hebben we de data van ons onderzoek geclusterd. De resultaten zijn als volgt:
 
-## Hoeken hoogte en diepte - exercise 1
-Met de [code](notebooks/Cluster_real_data.md)
+## Hoeken hoogte en diepte - exercise 1 ([code](notebooks/Cluster_real_data.md))
 Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. TODO nieuwe (juiste) grafieken toevoegen
 
 ![Clustering 1](notebooks/output_3_1.png "Clustering 1")
