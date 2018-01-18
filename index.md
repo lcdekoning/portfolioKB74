@@ -282,3 +282,4 @@ De volgende wiskunde sessie's heb ik gegeven aan studenten van de minor:
 - meegewerkt aan voorstel voor Medisch Ethische Commissie
 - meegewerkt aan protocol voor maken opnames
 - invoeren formulieren van opnames Atrium
+- template artikel uitgewerkt en aangepast naar onze opzet in LaTeX 
