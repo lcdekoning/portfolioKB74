@@ -130,7 +130,7 @@ Om de verschillende hoeken tussen de arm en het lichaam goed te berekenen, is he
 ### Hoeken berekenen 
 Wanneer het lichaam recht staat, kan de gewenste hoek tussen arm en lichaam berekend worden. Dit wordt berekend met behulp van de formule:
 
-![Formule](images/Formule_vectoren_hoeken.png "Formule 1")
+![Formule](images/Formule_vectoren_hoeken.gif "Formule 1")
 
 De vectoren worden gecreëerd met de coördinaten van de benodigde joints. De code die ik hiervoor geschreven heb staat hieronder. Zichtbaar in de code is dat er drie verschillende hoeken berekend moeten worden, afhankelijk van de oefening die de persoon doet (oefening 1, 2 of 3).
 
