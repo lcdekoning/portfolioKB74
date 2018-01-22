@@ -258,7 +258,7 @@ Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebb
 ## Diepte bij bepaalde hoek - exercise 1
 Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaalde genormaliseerde tijd gekeken, maar naar een bepaalde hoek. Bij deze hoek hebben we voor elke persoon de diepte bepaald, en deze hebben als parameter toegevoegd aan de clustering. De resultaten hiervan zijn weergegeven in de volgende grafieken. 
 
-![Clustering 5](images/Clustering3.png "Clustering 5")
+![Clustering 5](images/Clustering_3.png "Clustering 5")
 *Grafiek van de diepte van de elleboog bij een hoek van 40 graden tussen arm en lichaam, met op de x-as de diepte van de linker elleboog en op de y-as van de rechter elleboog*
 
 Zichtbaar in de grafiek is in ieder geval dat de diepte van de beide armen minder symmetrisch is, omdat de punten niet allemaal dicht op de diagonale lijn liggen.
