@@ -238,6 +238,7 @@ Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris bezi
 ## Hoeken hoogte en diepte - exercise 1 ([code](notebooks/Cluster_real_data.md))
 Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. 
 
+
 ![Clustering 1](notebooks/output_3_1.png "Clustering 1")
 *Grafiek van linkerarm, met op de x-as de diepte (z-coördinaat) en op de y-as de hoek tussen de arm en het lichaam*
 
