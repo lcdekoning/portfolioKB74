@@ -240,18 +240,26 @@ Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebb
 
 
 ![Clustering 1](notebooks/output_3_1.png "Clustering 1")
+
+
 *Grafiek van linkerarm, met op de x-as de diepte (z-coördinaat) en op de y-as de hoek tussen de arm en het lichaam*
 
 
 ![Clustering 2](notebooks/output_3_2.png "Clustering 2")
+
+
 *Grafiek van rechterarm, met op de x-as de diepte (z-coördinaat) en op de y-as de hoek tussen de arm en het lichaam*
 
 
 ![Clustering 3](notebooks/output_3_3.png "Clustering 3")
+
+
 *Grafiek van de hoek van beide armen, met op de x-as de linkerarm en op de y-as de rechterarm*
 
 
 ![Clustering 4](notebooks/output_3_4.png "Clustering 4")
+
+
 *Grafiek van de diepte van beide armen, met op de x-as de linkerarm en op de y-as de rechterarm*
 
 
