@@ -236,17 +236,31 @@ Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de j
 Om inzicht te krijgen in de samenhang tussen variabelen heb ik me met Boris beziggehouden met clustering. We hebben gewerkt met het K-means algoritme. Eerst heb ik een klein voorbeeld bekeken en geprobeerd in Python, zie [code](notebooks/Kleine_oefening.md). Daarna heb ik samen met Boris is de data geprepareerd om het bruikbaar te maken voor het K-means algoritme, zie [code](notebooks/Input_data.md). Vervolgens hebben we de data van ons onderzoek geclusterd. De resultaten zijn als volgt:
 
 ## Hoeken hoogte en diepte - exercise 1 ([code](notebooks/Cluster_real_data.md))
-Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. TODO nieuwe (juiste) grafieken toevoegen
+Voor deze clustering hebben we gekeken naar data van de eerste oefening. We hebben voor alle personen op t = 0,3 (van de genormaliseerde tijd) berekend welke hoek hun arm op dat moment maakt en wat de z-waarde (de diepte) op dat moment is. Vervolgens hebben we voor iedereen de afwijking bepaald ten opzichte van het gemiddelde, voor zowel de hoek als de diepte. Hier zijn we mee gaan clusteren. De resultaten hiervan zijn weergegeven in onderstaande grafieken. 
 
+*Grafiek van linkerarm, met op de x-as de diepte (z-coördinaat) en op de y-as de hoek tussen de arm en het lichaam*
 ![Clustering 1](notebooks/output_3_1.png "Clustering 1")
+
+
+*Grafiek van rechterarm, met op de x-as de diepte (z-coördinaat) en op de y-as de hoek tussen de arm en het lichaam*
 ![Clustering 2](notebooks/output_3_2.png "Clustering 2")
+
+
+*Grafiek van de hoek van beide armen, met op de x-as de linkerarm en op de y-as de rechterarm*
 ![Clustering 3](notebooks/output_3_3.png "Clustering 3")
+
+
+*Grafiek van de diepte van beide armen, met op de x-as de linkerarm en op de y-as de rechterarm*
 ![Clustering 4](notebooks/output_3_4.png "Clustering 4")
 
 
 ## Diepte bij bepaalde hoek - exercise 1
-Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaalde genormaliseerde tijd gekeken, maar naar een bepaalde hoek. Bij deze hoek hebben we voor elke persoon de diepte bepaald, en deze hebben als parameter toegevoegd aan de clustering. De resultaten hiervan zijn weergegeven in de volgende grafieken. TODO grafieken maken en toevoegen
+Om personen met elkaar te vergelijken, hebben we vervolgens niet naar een bepaalde genormaliseerde tijd gekeken, maar naar een bepaalde hoek. Bij deze hoek hebben we voor elke persoon de diepte bepaald, en deze hebben als parameter toegevoegd aan de clustering. De resultaten hiervan zijn weergegeven in de volgende grafieken. 
 
+*Grafiek van de diepte van de elleboog bij een hoek van 40 graden tussen arm en lichaam, met op de x-as de diepte van de linker elleboog en op de y-as van de rechter elleboog*
+![Clustering 5](images/Clustering3.png "Clustering 5")
+
+Zichtbaar in de grafiek is in ieder geval dat de diepte van de beide armen minder symmetrisch is, omdat de punten niet allemaal dicht op de diagonale lijn liggen.
 
 # Presentaties
 
@@ -283,3 +297,4 @@ De volgende wiskunde sessie's heb ik gegeven aan studenten van de minor:
 - meegewerkt aan protocol voor maken opnames
 - invoeren formulieren van opnames Atrium
 - template artikel uitgewerkt en aangepast naar onze opzet in LaTeX 
+- presentatie onderzoek in het LUMC op 6 februari (na einde minor)
