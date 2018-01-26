@@ -1,6 +1,3 @@
-TODO controleren links
-
-
 # Portfolio KB74
 Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik groepslid van de groep Pepper. Deze groep doet onderzoek naar het gebruik van 3D-camera's in de zorg. Concreter: kan een fysiotherapeut gebruik maken van een 3D-camera bij het bepalen van painful arcs bij patiënten?
 
@@ -229,7 +226,7 @@ De hoek tussen de arm en het lichaam bij de voorwaartse beweging wordt berekend 
 ![Zwakke plek ruggengraat](images/SpineMistake.jpg "Zwakke plek ruggengraat")
 
 ## Plaatsing van joints
-Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de joints in bepaalde situaties. Bijvoorbeeld wanneer de persoon zijn armen recht omhoog langs zijn hoofd heeft. Op dit moment is het algoritme niet altijd in staat goed onderscheid te maken tussen het hoofd, de nek en de schouders. Ook de heupen zijn te hoog geplaatst. Een voorbeeld hiervan is zichtbaar in de volgende afbeelding: TODO afbeelding.
+Een iets meer zichtbare 'zwakke plek' van het algoritme is de plaatsing van de joints in bepaalde situaties. Bijvoorbeeld wanneer de persoon zijn armen recht omhoog langs zijn hoofd heeft. Op dit moment is het algoritme niet altijd in staat goed onderscheid te maken tussen het hoofd, de nek en de schouders. Ook de heupen zijn te hoog geplaatst. 
 
 
 # Clustering
@@ -277,7 +274,7 @@ Zichtbaar in de grafiek is in ieder geval dat de diepte van de beide armen minde
 | Nr. | Intern/Extern | Presentatie |
 | --- | --- | --- |
 | 1 | Extern | [presentatie](presentations/Presentatie_1_extern.pdf) |
-| x | LUMC | TODO |
+| x | LUMC | Na de minor |
 
 
 # Andere taken
@@ -307,4 +304,5 @@ De volgende wiskunde sessie's heb ik gegeven aan studenten van de minor:
 - meegewerkt aan protocol voor maken opnames
 - invoeren formulieren van opnames Atrium
 - template artikel uitgewerkt en aangepast naar onze opzet in LaTeX 
+- hele artikel gelezen, verbeterd en geheel van gemaakt
 - presentatie onderzoek in het LUMC op 6 februari (na einde minor)
