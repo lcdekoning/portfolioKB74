@@ -9,6 +9,7 @@ Welkom op mijn portfolio, gemaakt voor de KB74 minor. Tijdens deze minor ben ik 
     - [Coursera](#coursera)
     - [Exploratory Data Analysis](#exploratory-data-analysis) 
     - [Spark Assignments](#spark-assignments)
+    - [Bullshit opdracht](#bullshit)
 - [Literatuur](#literatuur) 
 - [Opnames Atrium](#opnames-atrium) 
 - [Visualisatie](#visualisatie) 
@@ -70,6 +71,9 @@ Op Coursera heb ik de volgende courses gevolgd:
 | 1 | [Assignment 1](notebooks/assignment1.md) |
 | 2 | [Assignment 2](notebooks/assignment2.md) |
 
+
+## Bullshit
+Mijn [bullshit opdracht](documents/Bullshit in the age of big data V2.docx).
 
 # Literatuur
 De [samenvattingen](documents/Samenvattingen.md) die ik gemaakt heb.
