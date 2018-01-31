@@ -28,4 +28,4 @@ ages.age.unique()
 ```python
 
 ```
-// Variabelen heb ik gecreëerd tijdens de clusteranalyse: hoeken, afwijkingen t.o.v. gemiddelden etc.
+Variabelen heb ik gecreëerd tijdens de clusteranalyse: hoeken, afwijkingen t.o.v. gemiddelden etc.
