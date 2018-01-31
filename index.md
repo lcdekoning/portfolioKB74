@@ -55,14 +55,15 @@ Op Coursera heb ik de volgende courses gevolgd:
 
 | Nr. | Naam |
 | --- | --- |
-| 1 | [Check Data Edges](notebooks/1CheckDataEdges.md) |
-| 2 | [Variable Identification](notebooks/2VariableIdentification-Codebook.md) |
-| 3 | [Univariate Analysis](notebooks/3UnivariateAnalysis.md) |
-| 4 | [Bi-variate Analysis](notebooks/4Bi-variateAnalysis.md) |
-| 5, 6 | [Missing data and outliers](notebooks/5+6MissingDataOutliers.md) |
-| 7 | [Transformation](notebooks/7Transformation.md) |
-| 8 | [Variable creation](notebooks/8Variablecreation.md) |
-| 9 | [Evaluation](notebooks/9Evaluation.md) |
+| 1 | [Check Data Edges](notebooks/1%2BChecking%2BData%2BEdges.md) |
+| 2 | [Variable Identification](notebooks/2%2BIdentifying%2Bvariables.md) |
+| 3 | [Univariate Analysis](notebooks/3%20Univariate%20Analysis.md) |
+| 4 | [Bi-variate Analysis](notebooks/4%20Bivariate%20Analysis.md) |
+| 5 | [Missing data](notebooks/5%2BMissing%2BValues.md) |
+| 6 | [Outliers](notebooks/6%20Outliers.md) |
+| 7 | [Transformation](notebooks/7%20Data%20Transformation.md) |
+| 8 | [Variable creation](notebooks/8%2BCreating%2BVariables.md) |
+| 9 | [Evaluation](notebooks/9%2BEvaluate.md) |
 
 ## Spark Assignments
 
