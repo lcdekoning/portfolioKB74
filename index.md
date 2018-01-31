@@ -73,7 +73,7 @@ Op Coursera heb ik de volgende courses gevolgd:
 
 
 ## Bullshit
-Mijn [bullshit opdracht](documents/Bullshit-in-the-age-of-big-data-V2.docx).
+Mijn [bullshit opdracht](documents/Bullshit%20in%20the%20age%20of%20big%20data%20V2.docx).
 
 # Literatuur
 De [samenvattingen](documents/Samenvattingen.md) die ik gemaakt heb.
